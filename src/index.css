@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-stone-950 text-stone-100 antialiased selection:bg-amber-500 selection:text-stone-950 min-h-screen font-sans;
+  }
+}
